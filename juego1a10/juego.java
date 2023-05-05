@@ -17,7 +17,6 @@ public class juego {
         Scanner menu = new Scanner(System.in);
         
         this.calculo_incognita();
-        System.out.println(this.incognita);
         System.out.println("Adivine un numero entre 0 y 9 !!! tiene tres intentos :");
         // tres intentos con for
         for(int i=0; i<3; i++) {
@@ -31,6 +30,9 @@ public class juego {
                 System.out.println("Casi ... intente de nuevo ...");
             }
         }
+
+        System.out.println(this.incognita);
+        
     }
     
     public void calculo_incognita() {
