@@ -1,3 +1,8 @@
+// C01 – Escribir un programa que calcule un numero incógnita, aleatorio, del 1 al 10, 
+// y proponga al usuario descubrirlo. El usuario tiene 3 intentos, si falla en los 3 
+// intentos, pierde, sino, gana el juego. Realizar el código en una clase distinta a 
+// la principal.
+
 package juego1a10;
 
 /**
