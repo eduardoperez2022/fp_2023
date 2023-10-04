@@ -2,6 +2,8 @@ package demo_interface;
 
 public class CuentaBanco implements Comparable<CuentaBanco> {
     // El parámetro es de tipo de la misma clase (CuentaBanco)
+
+    private Long numeroCuenta;
     
     private Double balance;
 
@@ -32,6 +34,13 @@ public class CuentaBanco implements Comparable<CuentaBanco> {
 
     public void setBalance(double balance) {
         this.balance = balance;
+    }
+    public Long getNumeroCuenta() {
+        return numeroCuenta;
+    }
+
+    public void setNumeroCuenta(Long numeroCuenta) {
+        this.numeroCuenta = numeroCuenta;
     }
 
 }
